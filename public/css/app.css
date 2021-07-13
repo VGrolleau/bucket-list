@@ -64,6 +64,11 @@ h1 {
     text-align: center;
 }
 
+.about-text {
+    margin: 5%;
+    text-align: justify;
+}
+
 footer {
     display: flex;
     align-items: center;
