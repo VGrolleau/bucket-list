@@ -60,13 +60,35 @@ nav li {
     margin-right: 1rem;
 }
 
-h1 {
+h1, h2 {
     text-align: center;
 }
 
 .about-text {
     margin: 5%;
     text-align: justify;
+}
+
+.list-wish {
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.list-wish li {
+    margin: 10px auto;
+}
+
+.detail-wish div {
+    background-color: rgba(140,88,65,0.75);
+    padding: 20px;
+    margin: 100px 5% 15px;
+}
+
+.detail-wish p {
+    font-style: italic;
+    font-size: .8em;
+    margin: 0 5%;
 }
 
 footer {
