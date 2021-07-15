@@ -30,6 +30,15 @@
                 {% block body %}{% endblock %}
             </main>
 
+            {# read and display all flash messages #}
+            {% for label, messages in app.flashes %}
+                {% for message in messages %}
+                    <div class="flash flash-{{ label }}">
+                        {{ message }}
+                    </div>
+                {% endfor %}
+            {% endfor %}
+
             <footer>
                 <div>&copy;Bucket-List {{ "now"|date("Y") }}</div>
             </footer>

@@ -6,7 +6,7 @@
 
 {% block body %}
     <div class="detail-wish">
-        <h2>Souhait n°{{ wish.id }} : {{ wish.title }}</h2>
+        <h2>Souhait : {{ wish.title }}</h2>
         <div>{{ wish.description }}</div>
         <p class="subtitle">Souhaité par {{ wish.author }} le {{ wish.dateCreated|date('d/m/Y') }}</p>
     </div>
