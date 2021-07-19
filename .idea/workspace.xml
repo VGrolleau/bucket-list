@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98720d23-a15e-4d7e-8697-32bb01f296c0" name="Default Changelist" comment="TP module 6 (Mise en place formulaire création souhait)">
+    <list default="true" id="98720d23-a15e-4d7e-8697-32bb01f296c0" name="Default Changelist" comment="TP module 7 (Mise en relation tables category et wish)">
       <change afterPath="$PROJECT_DIR$/public/img/logo.xcf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/img/logo_black.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/img/logo_black.svg" afterDir="false" />
@@ -217,7 +217,7 @@
       <workItem from="1626343021702" duration="13246000" />
       <workItem from="1626423580096" duration="466000" />
       <workItem from="1626439940864" duration="8593000" />
-      <workItem from="1626677322672" duration="4971000" />
+      <workItem from="1626677322672" duration="5027000" />
     </task>
     <task id="LOCAL-00001" summary="TP module 4 (Création pages wish list et details)">
       <created>1626189214102</created>
@@ -240,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626364607443</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="TP module 7 (Mise en relation tables category et wish)">
+      <created>1626712123325</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1626712123325</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,7 +270,8 @@
     <MESSAGE value="TP module 4 (Création pages wish list et details)" />
     <MESSAGE value="TP module 5 (Mise en place doctrine et données)" />
     <MESSAGE value="TP module 6 (Mise en place formulaire création souhait)" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP module 6 (Mise en place formulaire création souhait)" />
+    <MESSAGE value="TP module 7 (Mise en relation tables category et wish)" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP module 7 (Mise en relation tables category et wish)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
