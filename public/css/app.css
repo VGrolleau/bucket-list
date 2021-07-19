@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(#122633, sandybrown);
+    background: linear-gradient(#122633 30%, #173142 45%, #294b61 60%, #305770 70%, #376380 80%, #44799c 90%, #63afe0);
     background-attachment: fixed;
     color: #EEE;
     font-family: 'Asul', serif;
@@ -11,7 +11,19 @@ a {
 }
 
 a:hover {
-    color: #132135;
+    font-style: italic;
+}
+
+nav a {
+    position: relative;
+    background: linear-gradient(to top, white 0%, white 1px, transparent 2px) no-repeat;
+    background-size: 0 100%;
+    transition: background-size .5s;
+}
+
+nav a:hover {
+    background-size: 100% 100%;
+    transition: background-size .5s;
 }
 
 img {
@@ -40,7 +52,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0 5%;
-    background-color: rgba(140,88,65,0.75);
+    background-color: rgba(11, 24, 31, 0.5);
     z-index: 5;
 }
 
@@ -80,9 +92,11 @@ h1, h2 {
 }
 
 .detail-wish div {
-    background-color: rgba(140,88,65,0.75);
+    background-color: rgba(255,255,255,0.5);
     padding: 20px;
     margin: 100px 5% 15px;
+    border-radius: 5px;
+    color: #122633;
 }
 
 .detail-wish p {
@@ -95,7 +109,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(140,88,65,0.75);
+    background-color: rgba(18, 38, 51,0.75);
     position: fixed;
     bottom: 0;
     left: 0;

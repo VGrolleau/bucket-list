@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98720d23-a15e-4d7e-8697-32bb01f296c0" name="Default Changelist" comment="TP module 5 (Mise en place doctrine et données)">
-      <change afterPath="$PROJECT_DIR$/src/Form/WishType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/wish/create.html.twig" afterDir="false" />
+    <list default="true" id="98720d23-a15e-4d7e-8697-32bb01f296c0" name="Default Changelist" comment="TP module 6 (Mise en place formulaire création souhait)">
+      <change afterPath="$PROJECT_DIR$/public/img/logo.xcf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/logo_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/logo_black.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/WishController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/WishController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/logo.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/Wish.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Wish.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/WishType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/WishType.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/inc/nav.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/inc/nav.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/main/home.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/home.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/wish/details.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/wish/details.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/wish/list.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/wish/list.html.twig" afterDir="false" />
     </list>
@@ -213,7 +214,10 @@
       <workItem from="1626332438189" duration="136000" />
       <workItem from="1626332592325" duration="65000" />
       <workItem from="1626332668909" duration="599000" />
-      <workItem from="1626343021702" duration="12367000" />
+      <workItem from="1626343021702" duration="13246000" />
+      <workItem from="1626423580096" duration="466000" />
+      <workItem from="1626439940864" duration="8593000" />
+      <workItem from="1626677322672" duration="4971000" />
     </task>
     <task id="LOCAL-00001" summary="TP module 4 (Création pages wish list et details)">
       <created>1626189214102</created>
@@ -229,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626273096665</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="TP module 6 (Mise en place formulaire création souhait)">
+      <created>1626364607443</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1626364607443</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,7 +262,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="TP module 4 (Création pages wish list et details)" />
     <MESSAGE value="TP module 5 (Mise en place doctrine et données)" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP module 5 (Mise en place doctrine et données)" />
+    <MESSAGE value="TP module 6 (Mise en place formulaire création souhait)" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP module 6 (Mise en place formulaire création souhait)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

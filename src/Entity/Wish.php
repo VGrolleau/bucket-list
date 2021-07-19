@@ -45,8 +45,8 @@ class Wish
      * @Assert\Length(
      *     min=1,
      *     max=50,
-     *     minMessage = "Le nom doit être d'au moins {{ limit }} caractères"
-     *     maxMessage="Le nom doit être inférieur à {{ limit }} caractères"
+     *     minMessage = "Le nom doit être d'au moins {{ limit }} caractères",
+     *     maxMessage = "Le nom doit être inférieur à {{ limit }} caractères"
      * )
      * @ORM\Column(type="string", length=50, nullable=true)
      */
@@ -61,6 +61,11 @@ class Wish
      * @ORM\Column(type="datetime")
      */
     private $dateCreated;
+
+    /**
+     * @ORM\ManyToOne(targetEntity=Category::class, inversedBy="wishes")
+     */
+    private $category;
 
     public function getId(): ?int
     {
@@ -123,6 +128,18 @@ class Wish
     public function setDateCreated(\DateTimeInterface $dateCreated): self
     {
         $this->dateCreated = $dateCreated;
+
+        return $this;
+    }
+
+    public function getCategory(): ?Category
+    {
+        return $this->category;
+    }
+
+    public function setCategory(?Category $category): self
+    {
+        $this->category = $category;
 
         return $this;
     }
