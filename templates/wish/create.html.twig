@@ -8,7 +8,18 @@ Ajouter un souhait | {{ parent() }}
     <h1>Ajouter un souhait</h1>
     <div>
         {{ form_start(wishForm) }}
-        {{ form_widget(wishForm) }}
+            {{ form_row(wishForm.title) }}
+            {{ form_row(wishForm.description) }}
+            {{ form_row(wishForm.author,
+                {
+                    'attr':
+                    {
+                        'placeholder': app.user.pseudo,
+                        'value': app.user.pseudo
+                    }
+                }
+            ) }}
+            {{ form_row(wishForm.category) }}
         <button>Ajouter</button>
         {{ form_end(wishForm) }}
     </div>

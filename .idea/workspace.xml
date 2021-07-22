@@ -2,18 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98720d23-a15e-4d7e-8697-32bb01f296c0" name="Default Changelist" comment="TP module 7 (Mise en relation tables category et wish)">
-      <change afterPath="$PROJECT_DIR$/public/img/logo.xcf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/logo_black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/logo_black.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/AdminController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/UserRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Security/AppAuthenticator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/security/login.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Wish.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Wish.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Form/WishType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/WishType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/wish/details.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/wish/details.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/wish/list.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/wish/list.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/inc/nav.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/inc/nav.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/main/home.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/home.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/wish/create.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/wish/create.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +188,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../series" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Symfony2.SettingsForm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -217,7 +220,10 @@
       <workItem from="1626343021702" duration="13246000" />
       <workItem from="1626423580096" duration="466000" />
       <workItem from="1626439940864" duration="8593000" />
-      <workItem from="1626677322672" duration="5027000" />
+      <workItem from="1626677322672" duration="5170000" />
+      <workItem from="1626775250277" duration="1565000" />
+      <workItem from="1626850444880" duration="649000" />
+      <workItem from="1626942077359" duration="10755000" />
     </task>
     <task id="LOCAL-00001" summary="TP module 4 (Création pages wish list et details)">
       <created>1626189214102</created>
@@ -247,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626712123325</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="TP module 7 (Mise en relation tables category et wish)">
+      <created>1626712142371</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1626712142371</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
